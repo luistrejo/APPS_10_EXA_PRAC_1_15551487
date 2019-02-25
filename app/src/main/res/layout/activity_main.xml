@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:adjustViewBounds="true"
+            android:padding="25dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/logo_tec" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Instituto Tecnologico de Chihuahua II"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aplicaciones móviles 1"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Examen Practico U1"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Docente: Ing. Rubén Alonso Hernández Chávez"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alumnos:"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Luis Alberto Trejo Miranda - 15551487"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Brandon Soto Delgado - 15540092"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jair Noel Franco Cruz - 15551496"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btnRotacion1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Rotación 1" />
+
+        <Button
+            android:id="@+id/btnRotacion2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rotación 2" />
+
+        <Button
+            android:id="@+id/btnAcredita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACREDITA - NO ACREDITA" />
+
+        <Button
+            android:id="@+id/btnCalculaVolumen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcula Volumen" />
+
+        <Button
+            android:id="@+id/btnTicTacToe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TIC – TAC TOE" />
+
+        <Button
+            android:id="@+id/btnAhorcado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ahorcado for dummies" />
+    </LinearLayout>
+</ScrollView>
